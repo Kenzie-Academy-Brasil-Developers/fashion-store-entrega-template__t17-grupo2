@@ -2,8 +2,13 @@ import { Header } from "../../components/adminComponents/Header"
 import { NavAdminBar } from "../../components/adminComponents/NavAdminBar"
 import { ProductList } from "../../components/ProductList"
 
+import { useContext } from "react"
+import { ProductContext } from "../../providers/ProductsContext/ProductsContex"
+import { IProduct } from "../../providers/ProductsContext/@types"
+
 
 export const AdminDashboardPage = () => {
+  const productList: IProduct[] | null = useContext(ProductContext).productList
 
   const submit = () => {
     console.log('Novo Produto')
@@ -17,7 +22,17 @@ export const AdminDashboardPage = () => {
       <button onClick={submit}>NOVO PRODUTO</button>
 
       <main>
-        <ProductList />
+        <ProductList>
+          {productList ? productList.map((product) => (
+          <li key={product.id}>
+            <img src={product.image}/>
+            <p>{product.name}</p>
+            <p>{product.price}</p>
+            <button>Editar</button>
+            <button>Remover</button>
+          </li>
+        )) : null}
+        </ProductList>
       </main>
     </>
   )
