@@ -13,7 +13,7 @@ export const StyledFormLogin = styled.form`
         gap: 1rem;
         margin: 1rem 0;
     }
-`
+    `
 
 export const SectionLogin = styled.section`
     display: flex;
