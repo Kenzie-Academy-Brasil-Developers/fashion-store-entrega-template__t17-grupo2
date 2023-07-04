@@ -25,7 +25,7 @@ export const UserProvider = ({ children }: IUserProviderProps) => {
         try {
             const { data } = await api.post("/login", formData)
 
-            //deve retornar nome do usario 
+            //deve retornar nome do usario
             localStorage.setItem("@AcessToken", JSON.stringify(data.accessToken))
             localStorage.setItem("@User", JSON.stringify(data.user))
             navigation("/admin_dashboard")
