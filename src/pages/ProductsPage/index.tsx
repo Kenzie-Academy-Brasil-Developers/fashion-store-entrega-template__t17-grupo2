@@ -1,13 +1,13 @@
 import { FooterDefault } from "../../components/Footer/index.tsx"
 import { HeaderDefault } from "../../components/Header/index.tsx"
-import { ProductContext } from "../../providers/ProductsContext/ProductsContex.tsx";
+import { ProductContext } from "../../providers/ProductsContext/ProductsContex.tsx"
 import { ConteinerTopStyled, ProductMainStyled } from "./style.ts"
-import { useContext } from 'react';
-import { IProduct } from "../../providers/ProductsContext/@types.ts";
+import { useContext } from "react"
+import { IProduct } from "../../providers/ProductsContext/@types.ts"
 import cart from "../../assets/cartPlus.svg"
-import { StyledProductList } from "../../styles/UlStyled.ts";
-import { ProductItem } from "../../components/ProductItem/index.tsx";
-import { ModalCart } from "../../components/shoppCart/index.tsx";
+import { StyledProductList } from "../../styles/UlStyled.ts"
+import { ProductItem } from "../../components/ProductItem/index.tsx"
+import { ModalCart } from "../../components/shoppCart/index.tsx"
 
 export const ProductsPage = () => {
   const { productList, currentProduct, isModal, setlistCart, listCart } = useContext(ProductContext)

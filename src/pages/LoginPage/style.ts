@@ -1,5 +1,5 @@
-import { styled } from "styled-components"
-import { letterTitle2 } from "../../styles/globalStyle.ts"
+import { styled } from "styled-components";
+import { letterTitle2 } from "../../styles/globalStyle.ts";
 
 
 export const StyledFormLogin = styled.form`

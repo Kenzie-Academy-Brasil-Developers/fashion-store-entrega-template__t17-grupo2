@@ -1,12 +1,12 @@
-import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import imgCover from '../../assets/Rectangle 2.png';
-import { Input } from '../../components/Input';
-import { ButtonStyled } from "../../styles/Button";
-import { HeaderDefault } from '../../components/Header/index.tsx';
-import { FooterDefault } from "../../components/Footer";
-import { letterTitle1 } from "../../styles/globalStyle.ts";
-import { RegisterContainer, RegisterContent, ImageContainer, FormContainer, StyledForm } from './style';
+import React, { useState } from "react"
+import { Link } from "react-router-dom"
+import imgCover from "../../assets/Rectangle 2.png"
+import { Input } from "../../components/Input"
+import { ButtonStyled } from "../../styles/Button"
+import { HeaderDefault } from "../../components/Header/index.tsx"
+import { FooterDefault } from "../../components/Footer"
+import { letterTitle1 } from "../../styles/globalStyle.ts"
+import { RegisterContainer, RegisterContent, ImageContainer, FormContainer, StyledForm } from "./style"
 
 
 

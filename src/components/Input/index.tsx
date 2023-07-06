@@ -1,6 +1,6 @@
 import { InputHTMLAttributes, forwardRef } from "react"
-import { FieldError } from "react-hook-form";
-import { InputStyled } from "./styles.ts";
+import { FieldError } from "react-hook-form"
+import { InputStyled } from "./styles.ts"
 
 interface IInputProps extends InputHTMLAttributes <HTMLInputElement>{
   placeholder: string;

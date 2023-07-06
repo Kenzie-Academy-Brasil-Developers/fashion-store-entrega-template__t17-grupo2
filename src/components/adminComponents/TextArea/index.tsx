@@ -1,6 +1,6 @@
 import { TextareaHTMLAttributes, forwardRef } from "react"
-import { FieldError } from "react-hook-form";
-import { StyledTextArea } from "./styles.ts";
+import { FieldError } from "react-hook-form"
+import { StyledTextArea } from "./styles.ts"
 
 interface ITextAreaProps extends TextareaHTMLAttributes <HTMLTextAreaElement> {
   placeholder: string;

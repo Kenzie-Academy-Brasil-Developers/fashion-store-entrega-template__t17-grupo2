@@ -1,4 +1,4 @@
-import { StyledTopSectionAdmin } from "./styles";
+import { StyledTopSectionAdmin } from "./styles"
 
 interface ITopSectionAdmin {
   title: string;

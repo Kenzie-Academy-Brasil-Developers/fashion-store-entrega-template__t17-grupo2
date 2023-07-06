@@ -1,8 +1,8 @@
-import { useContext, useEffect } from "react";
-import { Modal } from "../Modal/index.tsx";
-import { ProductContext } from "../../providers/ProductsContext/ProductsContex.tsx";
-import { UlStyled } from "./styles.ts";
-import { IProduct } from "../../providers/ProductsContext/@types.ts";
+import { useContext, useEffect } from "react"
+import { Modal } from "../Modal/index.tsx"
+import { ProductContext } from "../../providers/ProductsContext/ProductsContex.tsx"
+import { UlStyled } from "./styles.ts"
+import { IProduct } from "../../providers/ProductsContext/@types.ts"
 
 
 export const ModalCart = () => {

@@ -1,9 +1,9 @@
 import { IProduct } from "../../providers/ProductsContext/@types.ts"
 import cartPlus from "../../assets/cartPlus.svg"
-import { LiStyled } from "./styles.ts";
-import { useContext } from "react";
-import { ProductContext } from "../../providers/ProductsContext/ProductsContex.tsx";
-import { Link } from "react-router-dom";
+import { LiStyled } from "./styles.ts"
+import { useContext } from "react"
+import { ProductContext } from "../../providers/ProductsContext/ProductsContex.tsx"
+import { Link } from "react-router-dom"
 
 interface IProductList {
   item: IProduct;
